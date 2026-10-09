@@ -1,0 +1,138 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1120" width="900" height="1120" role="img" aria-label="Cartaz da Afegue Barbearia com navalhas cruzadas, coroa e poste de barbeiro">
+  <title>Afegue Barbearia — Seu estilo, com assinatura</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#181c23"/>
+      <stop offset="55%" stop-color="#0e1014"/>
+      <stop offset="100%" stop-color="#08090c"/>
+    </linearGradient>
+    <radialGradient id="spot" cx="50%" cy="42%" r="60%">
+      <stop offset="0%" stop-color="#e6bd6a" stop-opacity="0.16"/>
+      <stop offset="55%" stop-color="#e6bd6a" stop-opacity="0.05"/>
+      <stop offset="100%" stop-color="#e6bd6a" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="medalhao" cx="50%" cy="34%" r="78%">
+      <stop offset="0%" stop-color="#1b1f27"/>
+      <stop offset="100%" stop-color="#0a0b0e"/>
+    </radialGradient>
+    <linearGradient id="ouro" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f9e7ae"/>
+      <stop offset="35%" stop-color="#e0b75a"/>
+      <stop offset="65%" stop-color="#c08f2f"/>
+      <stop offset="100%" stop-color="#f2d488"/>
+    </linearGradient>
+    <linearGradient id="ouroH" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#c08f2f" stop-opacity="0.1"/>
+      <stop offset="50%" stop-color="#e7c268" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#c08f2f" stop-opacity="0.1"/>
+    </linearGradient>
+    <linearGradient id="aco" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f4f6fa"/>
+      <stop offset="50%" stop-color="#c8ced8"/>
+      <stop offset="100%" stop-color="#949aa6"/>
+    </linearGradient>
+    <pattern id="listras" width="34" height="34" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="34" height="34" fill="#101318"/>
+      <rect width="17" height="34" fill="#d81f2a"/>
+      <rect x="17" width="17" height="34" fill="#e9ebef"/>
+    </pattern>
+    <pattern id="pinca" width="12" height="12" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="12" height="12" fill="none"/>
+      <rect width="1" height="12" fill="#ffffff" opacity="0.035"/>
+    </pattern>
+    <filter id="brilho" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="8" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- fundo -->
+  <rect width="900" height="1120" fill="url(#bg)"/>
+  <rect width="900" height="1120" fill="url(#pinca)"/>
+  <ellipse cx="450" cy="440" rx="440" ry="430" fill="url(#spot)"/>
+
+  <!-- moldura -->
+  <rect x="26" y="26" width="848" height="1068" fill="none" stroke="url(#ouro)" stroke-width="3"/>
+  <rect x="38" y="38" width="824" height="1044" fill="none" stroke="#ffffff" stroke-width="1" opacity="0.14"/>
+  <g fill="url(#ouro)">
+    <path d="M26 60 l10 -10 l10 10 l-10 10 z"/>
+    <path d="M854 60 l10 -10 l10 10 l-10 10 z"/>
+    <path d="M26 1060 l10 -10 l10 10 l-10 10 z"/>
+    <path d="M854 1060 l10 -10 l10 10 l-10 10 z"/>
+  </g>
+
+  <!-- postes de barbeiro -->
+  <g>
+    <rect x="62" y="96" width="42" height="928" rx="21" fill="url(#listras)" opacity="0.92"/>
+    <rect x="62" y="96" width="42" height="928" rx="21" fill="none" stroke="url(#ouro)" stroke-width="2"/>
+    <rect x="56" y="76" width="54" height="26" rx="8" fill="url(#ouro)"/>
+    <rect x="56" y="1018" width="54" height="26" rx="8" fill="url(#ouro)"/>
+
+    <rect x="796" y="96" width="42" height="928" rx="21" fill="url(#listras)" opacity="0.92"/>
+    <rect x="796" y="96" width="42" height="928" rx="21" fill="none" stroke="url(#ouro)" stroke-width="2"/>
+    <rect x="790" y="76" width="54" height="26" rx="8" fill="url(#ouro)"/>
+    <rect x="790" y="1018" width="54" height="26" rx="8" fill="url(#ouro)"/>
+  </g>
+
+  <!-- medalhão -->
+  <g>
+    <circle cx="450" cy="440" r="256" fill="none" stroke="url(#ouro)" stroke-width="1.4" opacity="0.45"/>
+    <circle cx="450" cy="440" r="244" fill="url(#medalhao)" stroke="url(#ouro)" stroke-width="3.5"/>
+    <circle cx="450" cy="440" r="226" fill="none" stroke="url(#ouro)" stroke-width="2"
+            stroke-dasharray="2 9" stroke-linecap="round" opacity="0.85"/>
+    <circle cx="450" cy="440" r="200" fill="none" stroke="#ffffff" stroke-width="1" opacity="0.1"/>
+
+    <!-- coroa -->
+    <g transform="translate(450,300) scale(1.15)" fill="url(#ouro)" filter="url(#brilho)">
+      <path d="M-48,20 L-48,-4 L-25,11 L0,-25 L25,11 L48,-4 L48,20 Z"/>
+      <rect x="-53" y="22" width="106" height="11" rx="3"/>
+      <circle cx="-48" cy="-10" r="5.5"/>
+      <circle cx="0" cy="-31" r="6.5"/>
+      <circle cx="48" cy="-10" r="5.5"/>
+      <circle cx="0" cy="27.5" r="3" fill="#d81f2a"/>
+      <circle cx="-30" cy="27.5" r="2.5" fill="#d81f2a"/>
+      <circle cx="30" cy="27.5" r="2.5" fill="#d81f2a"/>
+    </g>
+
+    <!-- navalhas cruzadas -->
+    <g transform="translate(450,500) scale(2.2)">
+      <g transform="rotate(-32) scale(0.42) translate(-4,0)">
+        <path d="M-80,-7 h74 a6,6 0 0 1 0,14 h-74 a7,7 0 0 1 0,-14 z" fill="#0a1122" stroke="url(#ouro)" stroke-width="5"/>
+        <path d="M-4,-9 L62,-13 L80,0 L62,12 L-4,9 Z" fill="url(#aco)" stroke="#9fb0cc" stroke-width="3"/>
+        <path d="M-4,6 L64,8" stroke="#8b9ab5" stroke-width="3"/>
+        <circle cx="-70" cy="0" r="4" fill="url(#ouro)"/>
+      </g>
+      <g transform="rotate(32) scale(0.42) translate(4,0)">
+        <path d="M80,-7 h-74 a6,6 0 0 0 0,14 h74 a7,7 0 0 0 0,-14 z" fill="#0a1122" stroke="url(#ouro)" stroke-width="5"/>
+        <path d="M4,-9 L-62,-13 L-80,0 L-62,12 L4,9 Z" fill="url(#aco)" stroke="#9fb0cc" stroke-width="3"/>
+        <path d="M4,6 L-64,8" stroke="#8b9ab5" stroke-width="3"/>
+        <circle cx="70" cy="0" r="4" fill="url(#ouro)"/>
+      </g>
+    </g>
+
+    <circle cx="194" cy="440" r="6" fill="#d81f2a"/>
+    <circle cx="706" cy="440" r="6" fill="#d81f2a"/>
+  </g>
+
+  <!-- ornamento -->
+  <g>
+    <line x1="210" y1="762" x2="410" y2="762" stroke="url(#ouroH)" stroke-width="2"/>
+    <line x1="490" y1="762" x2="690" y2="762" stroke="url(#ouroH)" stroke-width="2"/>
+    <path d="M450,752 l10,10 l-10,10 l-10,-10 z" fill="#d81f2a"/>
+  </g>
+
+  <!-- wordmark -->
+  <g text-anchor="middle">
+    <text x="450" y="866" font-family="Georgia, 'Times New Roman', serif" font-size="96"
+          font-weight="bold" letter-spacing="14" fill="#f4f5f7">AFEGUE</text>
+    <g>
+      <line x1="228" y1="906" x2="316" y2="906" stroke="url(#ouroH)" stroke-width="2"/>
+      <line x1="584" y1="906" x2="672" y2="906" stroke="url(#ouroH)" stroke-width="2"/>
+      <text x="450" y="916" font-family="Georgia, 'Times New Roman', serif" font-size="34"
+            letter-spacing="16" fill="url(#ouro)">BARBEARIA</text>
+    </g>
+    <line x1="270" y1="958" x2="630" y2="958" stroke="#ffffff" stroke-width="1" opacity="0.2"/>
+    <text x="450" y="1000" font-family="Arial, Helvetica, sans-serif" font-size="17"
+          letter-spacing="9" fill="#c3c8d0">CORTE · BARBA · ESTILO</text>
+  </g>
+</svg>

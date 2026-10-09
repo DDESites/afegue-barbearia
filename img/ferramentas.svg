@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 640" width="960" height="640" role="img" aria-label="Ilustração das ferramentas do barbeiro: tesoura, navalha, pente e pincel de barba">
+  <title>Afegue Barbearia — ferramentas do ofício</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#171b22"/>
+      <stop offset="60%" stop-color="#0d0f13"/>
+      <stop offset="100%" stop-color="#08090c"/>
+    </linearGradient>
+    <linearGradient id="ouro" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f9e7ae"/>
+      <stop offset="40%" stop-color="#e0b75a"/>
+      <stop offset="100%" stop-color="#c08f2f"/>
+    </linearGradient>
+    <linearGradient id="ouroH" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#c08f2f" stop-opacity="0.1"/>
+      <stop offset="50%" stop-color="#e7c268" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#c08f2f" stop-opacity="0.1"/>
+    </linearGradient>
+    <linearGradient id="aco" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f7f9fc"/>
+      <stop offset="55%" stop-color="#c8ced8"/>
+      <stop offset="100%" stop-color="#949aa6"/>
+    </linearGradient>
+    <radialGradient id="holo" cx="50%" cy="45%" r="55%">
+      <stop offset="0%" stop-color="#e6bd6a" stop-opacity="0.13"/>
+      <stop offset="100%" stop-color="#e6bd6a" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="pinca" width="12" height="12" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="1" height="12" fill="#ffffff" opacity="0.03"/>
+    </pattern>
+  </defs>
+
+  <rect width="960" height="640" fill="url(#bg)"/>
+  <rect width="960" height="640" fill="url(#pinca)"/>
+  <ellipse cx="480" cy="300" rx="440" ry="300" fill="url(#holo)"/>
+
+  <!-- linha da bancada -->
+  <line x1="60" y1="470" x2="900" y2="470" stroke="url(#ouroH)" stroke-width="2"/>
+  <line x1="60" y1="482" x2="900" y2="482" stroke="#ffffff" stroke-width="1" opacity="0.1"/>
+
+  <!-- sombras na bancada -->
+  <ellipse cx="120" cy="474" rx="50" ry="8" fill="#000000" opacity="0.45"/>
+  <ellipse cx="330" cy="474" rx="80" ry="8" fill="#000000" opacity="0.45"/>
+  <ellipse cx="580" cy="474" rx="130" ry="9" fill="#000000" opacity="0.45"/>
+  <ellipse cx="840" cy="474" rx="80" ry="8" fill="#000000" opacity="0.45"/>
+
+  <!-- pincel de barba -->
+  <g transform="translate(120,476)">
+    <path d="M-34 -84 C-34 -142 -18 -170 0 -170 C18 -170 34 -142 34 -84 Z"
+          fill="url(#aco)" stroke="url(#ouro)" stroke-width="3"/>
+    <rect x="-30" y="-88" width="60" height="26" rx="6" fill="url(#ouro)"/>
+    <path d="M-20 -62 L-16 -6 L16 -6 L20 -62 Z" fill="#12151b" stroke="url(#ouro)" stroke-width="3"/>
+    <path d="M-16 -6 q16 12 32 0" fill="none" stroke="url(#ouro)" stroke-width="3"/>
+    <circle cx="0" cy="-34" r="4" fill="#d81f2a"/>
+  </g>
+
+  <!-- tesoura -->
+  <g transform="translate(330,323) rotate(-8)">
+    <!-- lâminas -->
+    <path d="M-12,-2 C-6,-70 6,-140 48,-184 C30,-120 14,-60 8,8 Z"
+          fill="url(#aco)" stroke="#8e95a1" stroke-width="2.5" stroke-linejoin="round"/>
+    <path d="M12,-2 C6,-70 -6,-140 -48,-184 C-30,-120 -14,-60 -8,8 Z"
+          fill="url(#aco)" stroke="#8e95a1" stroke-width="2.5" stroke-linejoin="round"/>
+    <path d="M2,-10 C6,-72 18,-132 44,-176" fill="none" stroke="#ffffff" stroke-width="2" opacity="0.55"/>
+    <path d="M-2,-10 C-6,-72 -18,-132 -44,-176" fill="none" stroke="#ffffff" stroke-width="2" opacity="0.35"/>
+    <!-- hastes -->
+    <g fill="none" stroke="url(#ouro)" stroke-width="9" stroke-linecap="round">
+      <path d="M-40 78 C-40 46 -18 26 -8 4"/>
+      <path d="M40 78 C40 46 18 26 8 4"/>
+    </g>
+    <!-- argolas -->
+    <circle cx="-44" cy="112" r="30" fill="none" stroke="url(#ouro)" stroke-width="10"/>
+    <circle cx="44" cy="112" r="30" fill="none" stroke="url(#ouro)" stroke-width="10"/>
+    <!-- parafuso -->
+    <circle cx="0" cy="4" r="11" fill="url(#ouro)"/>
+    <circle cx="0" cy="4" r="4" fill="#0a0b0e"/>
+  </g>
+
+  <!-- navalha -->
+  <g transform="translate(614,432) rotate(-6) scale(1.75)">
+    <path d="M-80,-7 h74 a6,6 0 0 1 0,14 h-74 a7,7 0 0 1 0,-14 z" fill="#0a1122" stroke="url(#ouro)" stroke-width="5"/>
+    <path d="M-4,-9 L62,-13 L80,0 L62,12 L-4,9 Z" fill="url(#aco)" stroke="#8e95a1" stroke-width="3"/>
+    <path d="M-4,6 L64,8" stroke="#8b9ab5" stroke-width="3"/>
+    <circle cx="-70" cy="0" r="4.5" fill="url(#ouro)"/>
+  </g>
+
+  <!-- pente -->
+  <g transform="translate(840,430)">
+    <rect x="-70" y="-34" width="140" height="22" rx="8" fill="#12151b" stroke="url(#ouro)" stroke-width="3"/>
+    <g stroke="url(#ouro)" stroke-width="3" stroke-linecap="round">
+      <path d="M-58 -12 v44"/><path d="M-40 -12 v44"/><path d="M-22 -12 v44"/>
+      <path d="M-4 -12 v44"/><path d="M14 -12 v44"/><path d="M32 -12 v44"/><path d="M50 -12 v44"/>
+    </g>
+    <circle cx="64" cy="-23" r="4" fill="#d81f2a"/>
+  </g>
+
+  <!-- ornamento -->
+  <g>
+    <line x1="330" y1="574" x2="450" y2="574" stroke="url(#ouroH)" stroke-width="1.6"/>
+    <line x1="510" y1="574" x2="630" y2="574" stroke="url(#ouroH)" stroke-width="1.6"/>
+    <path d="M480,566 l8,8 l-8,8 l-8,-8 z" fill="#d81f2a"/>
+  </g>
+</svg>

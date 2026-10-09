@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 640" width="960" height="640" role="img" aria-label="Ilustração do interior da barbearia com cadeiras de barbeiro, espelhos e poste clássico">
+  <title>Afegue Barbearia — o espaço</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#171b22"/>
+      <stop offset="70%" stop-color="#0d0f13"/>
+      <stop offset="100%" stop-color="#08090c"/>
+    </linearGradient>
+    <linearGradient id="espelho" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2a3140"/>
+      <stop offset="45%" stop-color="#161a22"/>
+      <stop offset="100%" stop-color="#0d1015"/>
+    </linearGradient>
+    <linearGradient id="ouro" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f9e7ae"/>
+      <stop offset="40%" stop-color="#e0b75a"/>
+      <stop offset="100%" stop-color="#c08f2f"/>
+    </linearGradient>
+    <linearGradient id="aco" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f4f6fa"/>
+      <stop offset="100%" stop-color="#9aa0ab"/>
+    </linearGradient>
+    <pattern id="listras" width="26" height="26" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="26" height="26" fill="#101318"/>
+      <rect width="13" height="26" fill="#d81f2a"/>
+      <rect x="13" width="13" height="26" fill="#e9ebef"/>
+    </pattern>
+    <pattern id="pinca" width="12" height="12" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="1" height="12" fill="#ffffff" opacity="0.03"/>
+    </pattern>
+    <radialGradient id="holo" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#e6bd6a" stop-opacity="0.14"/>
+      <stop offset="100%" stop-color="#e6bd6a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="960" height="640" fill="url(#bg)"/>
+  <rect width="960" height="640" fill="url(#pinca)"/>
+
+  <!-- parede / rodapé -->
+  <line x1="0" y1="474" x2="960" y2="474" stroke="#e6bd6a" stroke-width="1.5" opacity="0.5"/>
+  <rect x="0" y="474" width="960" height="166" fill="#0a0b0f"/>
+  <line x1="0" y1="520" x2="960" y2="520" stroke="#ffffff" stroke-width="1" opacity="0.06"/>
+
+  <!-- luminárias -->
+  <g stroke="url(#ouro)" stroke-width="2.5" fill="none">
+    <path d="M170 0 v44"/><path d="M790 0 v44"/>
+    <path d="M140 44 h60 l16 44 h-92 z" fill="#12151b"/>
+    <path d="M760 44 h60 l16 44 h-92 z" fill="#12151b"/>
+  </g>
+  <ellipse cx="170" cy="150" rx="130" ry="90" fill="url(#holo)"/>
+  <ellipse cx="790" cy="150" rx="130" ry="90" fill="url(#holo)"/>
+
+  <!-- espelhos -->
+  <g>
+    <rect x="76" y="120" width="188" height="230" rx="14" fill="url(#espelho)" stroke="url(#ouro)" stroke-width="3"/>
+    <path d="M96 340 L244 132" stroke="#ffffff" stroke-width="10" opacity="0.05"/>
+    <rect x="696" y="120" width="188" height="230" rx="14" fill="url(#espelho)" stroke="url(#ouro)" stroke-width="3"/>
+    <path d="M716 340 L864 132" stroke="#ffffff" stroke-width="10" opacity="0.05"/>
+  </g>
+
+  <!-- bancada -->
+  <g>
+    <rect x="56" y="350" width="848" height="20" rx="6" fill="#14171d" stroke="#e6bd6a" stroke-width="1.6"/>
+    <rect x="90" y="370" width="780" height="70" rx="8" fill="#101319" stroke="#ffffff" stroke-opacity="0.1" stroke-width="1"/>
+    <g stroke="#ffffff" stroke-opacity="0.12" stroke-width="1">
+      <line x1="285" y1="370" x2="285" y2="440"/>
+      <line x1="480" y1="370" x2="480" y2="440"/>
+      <line x1="675" y1="370" x2="675" y2="440"/>
+    </g>
+    <!-- objetos na bancada -->
+    <g stroke="url(#ouro)" stroke-width="2" fill="#12151b">
+      <rect x="330" y="316" width="26" height="34" rx="5"/>
+      <rect x="600" y="322" width="20" height="28" rx="4"/>
+      <rect x="632" y="328" width="16" height="22" rx="4"/>
+    </g>
+    <rect x="333" y="308" width="20" height="10" rx="3" fill="url(#ouro)"/>
+  </g>
+
+  <!-- poste de barbeiro -->
+  <g>
+    <rect x="456" y="120" width="48" height="216" rx="24" fill="url(#listras)" opacity="0.92"/>
+    <rect x="456" y="120" width="48" height="216" rx="24" fill="none" stroke="url(#ouro)" stroke-width="2"/>
+    <rect x="450" y="98" width="60" height="24" rx="7" fill="url(#ouro)"/>
+    <rect x="450" y="334" width="60" height="24" rx="7" fill="url(#ouro)"/>
+    <line x1="480" y1="358" x2="480" y2="370" stroke="#e6bd6a" stroke-width="2"/>
+  </g>
+
+  <!-- cadeiras de barbeiro -->
+  <g>
+    <!-- cadeira esquerda -->
+    <g transform="translate(240,474)">
+      <ellipse cx="0" cy="0" rx="86" ry="18" fill="#0e1116" stroke="#e6bd6a" stroke-width="2"/>
+      <rect x="-16" y="-92" width="32" height="92" rx="8" fill="#12151b" stroke="#e6bd6a" stroke-width="2"/>
+      <rect x="-74" y="-128" width="148" height="42" rx="16" fill="#14171d" stroke="#e6bd6a" stroke-width="2.5"/>
+      <rect x="-58" y="-246" width="116" height="126" rx="18" fill="#14171d" stroke="#e6bd6a" stroke-width="2.5"/>
+      <rect x="-26" y="-276" width="52" height="34" rx="10" fill="#14171d" stroke="#e6bd6a" stroke-width="2.5"/>
+      <path d="M-92 -118 q-14 44 6 66" fill="none" stroke="#e6bd6a" stroke-width="4" stroke-linecap="round"/>
+      <path d="M92 -118 q14 44 -6 66" fill="none" stroke="#e6bd6a" stroke-width="4" stroke-linecap="round"/>
+      <rect x="-52" y="-46" width="104" height="14" rx="6" fill="#12151b" stroke="#e6bd6a" stroke-width="2"/>
+      <line x1="-40" y1="-196" x2="40" y2="-196" stroke="#d81f2a" stroke-width="6" stroke-linecap="round"/>
+    </g>
+
+    <!-- cadeira direita -->
+    <g transform="translate(720,474)">
+      <ellipse cx="0" cy="0" rx="86" ry="18" fill="#0e1116" stroke="#e6bd6a" stroke-width="2"/>
+      <rect x="-16" y="-92" width="32" height="92" rx="8" fill="#12151b" stroke="#e6bd6a" stroke-width="2"/>
+      <rect x="-74" y="-128" width="148" height="42" rx="16" fill="#14171d" stroke="#e6bd6a" stroke-width="2.5"/>
+      <rect x="-58" y="-246" width="116" height="126" rx="18" fill="#14171d" stroke="#e6bd6a" stroke-width="2.5"/>
+      <rect x="-26" y="-276" width="52" height="34" rx="10" fill="#14171d" stroke="#e6bd6a" stroke-width="2.5"/>
+      <path d="M-92 -118 q-14 44 6 66" fill="none" stroke="#e6bd6a" stroke-width="4" stroke-linecap="round"/>
+      <path d="M92 -118 q14 44 -6 66" fill="none" stroke="#e6bd6a" stroke-width="4" stroke-linecap="round"/>
+      <rect x="-52" y="-46" width="104" height="14" rx="6" fill="#12151b" stroke="#e6bd6a" stroke-width="2"/>
+      <line x1="-40" y1="-196" x2="40" y2="-196" stroke="#d81f2a" stroke-width="6" stroke-linecap="round"/>
+    </g>
+  </g>
+
+  <!-- reflexos no chão -->
+  <ellipse cx="240" cy="500" rx="120" ry="16" fill="#e6bd6a" opacity="0.06"/>
+  <ellipse cx="720" cy="500" rx="120" ry="16" fill="#e6bd6a" opacity="0.06"/>
+
+  <!-- ornamento -->
+  <g>
+    <line x1="330" y1="590" x2="450" y2="590" stroke="#e6bd6a" stroke-width="1.4" opacity="0.6"/>
+    <line x1="510" y1="590" x2="630" y2="590" stroke="#e6bd6a" stroke-width="1.4" opacity="0.6"/>
+    <path d="M480,582 l8,8 l-8,8 l-8,-8 z" fill="#d81f2a"/>
+  </g>
+</svg>
